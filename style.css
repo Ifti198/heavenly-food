@@ -82,3 +82,20 @@ p{
 .recipe-item2{
     margin: 0 7%;
 }
+/*Social-area*/
+.social-shadow{
+    box-shadow: 2px 2px 40px gray;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.social-item{
+    width: 25%;
+    margin: auto;
+    padding-left: 110px;
+}
+.social-item .social-lh{
+    color: rgb(24, 25, 31);
+    line-height: 10px;
+}
