@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h1{
+    font-size: 50px;
+    color: rgb(87, 87, 87);
+}
+h2{
+    font-size: 35px;
+    color: rgb(87, 87, 87);
+}
+h3{
+    font-size: 25px;
+}
+p{
+    color: rgb(112, 112, 112);
+    font-size: 15px;
+    line-height: 24px;
+}
+.orange-color{
+    color: orange;
+}
+.top-banner{
+    padding: 50px 0;
+}
+.flexiable-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.top-banner-pd{
+    padding: 100px 0;
+}
