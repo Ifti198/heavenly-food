@@ -63,3 +63,22 @@ p{
 .half-width .about-person{
     width: 50%;
 }
+/*Recipe-area*/
+.recipe-area{
+    padding: 10px 0 10px;
+}
+.recipe-item{
+    width: 25%;
+    box-shadow: 5px 5px 30px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.recipe-header{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.recipe-item2{
+    margin: 0 7%;
+}
