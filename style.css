@@ -6,6 +6,24 @@ img{
     width: 100%;
     display: block;
 }
+.flexiable-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 h1{
     font-size: 50px;
     color: rgb(87, 87, 87);
@@ -25,10 +43,8 @@ p{
 .orange-color{
     color: #ffa500;
 }
-.flexiable-container{
-    width: 90%;
-    margin: auto;
-    display: flex;
+.gray-color{
+    color: gray;
 }
 /*Head-Banner*/
 .head-container{
@@ -53,21 +69,8 @@ p{
 .top-banner{
     padding: 50px 0;
 }
-.half-width{
-    width: 50%;
-    padding-left: 2%;
-}
 .half-width img{
     width: 100%;
-}
-.anchor-button{
-    text-decoration: none;
-    background-image: linear-gradient(to right, orange, tomato);
-    padding: 20px 40px;
-    color: white;
-    border-radius: 30px;
-    font-weight: 700;
-    text-transform: capitalize;
 }
 .top-banner-pd{
     padding: 100px 0;
@@ -99,14 +102,14 @@ p{
     text-align: center;
     margin-bottom: 30px;
 }
-.recipe-item2{
+#recipe-item2{
     margin: 0 7%;
 }
 /*Social-area*/
-.social-shadow{
+.container-shadow{
     box-shadow: 2px 2px 40px gray;
     border-radius: 10px;
-    padding: 40px 0;
+    padding: 40px 0 60px;
     margin-top: 80px;
     margin-bottom: 70px;
 }
@@ -119,6 +122,26 @@ p{
     color: rgb(24, 25, 31);
     line-height: 10px;
 }
+/*Contact-area*/
+.contact-area{
+    padding-bottom: 10px;
+}
+.contact-pd{
+    padding: 0 40px;
+}
+.contact-form{
+    width: 80%;
+    margin: 10px 0;
+}
+.button{
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: green;
+    font-weight: 700;
+}
 /*Footer-area*/
 .footer-area{
     background-color: rgb(11, 13, 23);
@@ -128,9 +151,6 @@ p{
     width: 50%;
     margin: auto;
     text-align: center;
-}
-.gray-color{
-    color: gray;
 }
 .footer-container p{
     color: rgb(192, 192, 195);
