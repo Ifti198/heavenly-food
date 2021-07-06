@@ -52,3 +52,14 @@ p{
 .top-banner-pd{
     padding: 100px 0;
 }
+/*About-area*/
+.about-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 40px;
+    padding-top: 110px;
+}
+.half-width .about-person{
+    width: 50%;
+}
