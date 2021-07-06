@@ -23,15 +23,35 @@ p{
     line-height: 24px;
 }
 .orange-color{
-    color: orange;
-}
-.top-banner{
-    padding: 50px 0;
+    color: #ffa500;
 }
 .flexiable-container{
     width: 90%;
     margin: auto;
     display: flex;
+}
+/*Head-Banner*/
+.head-container{
+    width: 100%;
+}
+.left-head-banner{
+    width: 65%;
+ }
+.right-head-banner{
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 85px;
+}
+.right-head-image{
+    width: 80%;
+ }
+.right-bottom-para{
+    line-height: 25px;
+}
+/*top-Banner*/
+.top-banner{
+    padding: 50px 0;
 }
 .half-width{
     width: 50%;
@@ -98,4 +118,20 @@ p{
 .social-item .social-lh{
     color: rgb(24, 25, 31);
     line-height: 10px;
+}
+/*Footer-area*/
+.footer-area{
+    background-color: rgb(11, 13, 23);
+    padding: 15px 0 70px;
+}
+.footer-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.gray-color{
+    color: gray;
+}
+.footer-container p{
+    color: rgb(192, 192, 195);
 }
